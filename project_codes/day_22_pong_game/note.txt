@@ -1,0 +1,6 @@
+The program works fine, but there is a problem with the actual screensize for the game and how the codes that uses it interacts.
+It uses the turtle lirbary, the screen is set to be 800 by width and 600 by height.
+But when I code the game I got an offset of 100 and -100 in the x coordinates. The same goes with the y coordinates.
+Currently using gnu/linux from Ubuntu. Previously my distro was Fedora and I didn't encounter the same issues. 
+Overall, the game works fine. Just there are offsets in the coordinates. To whom ever can offer any help. Thanks in advance.
+Currently I'm looking for solutions about it.
