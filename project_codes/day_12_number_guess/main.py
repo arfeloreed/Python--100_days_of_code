@@ -2,6 +2,8 @@ from random import randint
 import art
 
 def difficulty_level(number_attempts):
+    """Checks the user's guess and compares to the correct number. Takes the number
+    of attempts as input base on the difficulty level the user chose."""
     attempts = number_attempts
 
     while attempts > 0:
