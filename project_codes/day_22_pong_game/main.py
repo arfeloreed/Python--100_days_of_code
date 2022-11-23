@@ -9,6 +9,7 @@ my_screen = Screen()
 my_screen.screensize(canvwidth=WIDTH, canvheight=HEIGHT)
 my_screen.setup(width=WIDTH, height=HEIGHT+4)
 my_screen.bgcolor("black")
+my_screen.title("Pong Game")
 my_screen.tracer(0)
 
 # create paddles
