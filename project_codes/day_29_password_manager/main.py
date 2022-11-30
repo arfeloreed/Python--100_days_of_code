@@ -65,7 +65,6 @@ entry_website.grid(row=1, column=1, columnspan=2)
 entry_website.focus()
 entry_email = tk.Entry(width=48)
 entry_email.grid(row=2, column=1, columnspan=2)
-entry_email.insert(0, "your_email@gmail.com")
 entry_password = tk.Entry(width=28)
 entry_password.grid(row=3, column=1)
 
