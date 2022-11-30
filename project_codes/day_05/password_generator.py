@@ -19,20 +19,6 @@ random_letters = random.choices(letters, k = nr_letters)
 random_symbols = random.choices(symbols, k = nr_symbols)
 random_numbers = random.choices(numbers, k = nr_numbers)
 
-# forming a list for all the random values
-
-# password = random_letters + random_symbols + random_numbers
-# print(password)
-
-# putting the random generated password into a string
-
-# easy_password = ""
-# for element in password:
-#     easy_password += element
-# print(f"Here is your password: {easy_password}")
-
-# now doing the hard password
-
 # forming a list of all the generated random values
 password = random_letters + random_symbols + random_numbers
 
