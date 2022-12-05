@@ -12,7 +12,7 @@ states_usa = States()
 
 # track score
 score = 0
-while states_usa.correct_guess != 50:
+while score < 50:
     # ask for the user input
     answer = my_screen.textinput(title=f"{score}/50    Guess the State", prompt="Enter a name of a State: ").title()
     if answer == "Quit":
