@@ -11,8 +11,8 @@ now = dt.datetime.now()
 day_of_week = now.weekday()
 print(day_of_week)
 
-my_email = "test.puropose.00@gmail.com"
-password = "jvsypxhkeoykxpyg"
+my_email = "your_email@gmail.com"
+password = "your_password"
 if day_of_week == 5:
     with smtplib.SMTP("smtp.gmail.com") as connection:
         connection.starttls()
