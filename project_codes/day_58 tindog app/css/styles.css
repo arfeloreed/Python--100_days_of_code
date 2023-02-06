@@ -1,0 +1,173 @@
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* containers */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* headings */
+.h2-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.title-heading {
+    font-size: 3.5rem;  
+    line-height: 1.5;
+    color: white;
+}
+
+/* title section */
+#title {
+    background-color: #ff4c68;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+nav.navbar {
+    padding: 0;
+    margin-bottom: 4.5rem;
+}
+
+.tindog-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+nav ul li a {
+    margin-left: 1.8rem;
+    font-size: 1.2rem;
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.dogo-cp-pic {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+/* features section */
+#features {
+    background-color: #f5f5f5;
+    position: relative;
+}
+
+#features div.row {
+    line-height: 2;
+}
+
+#features div.row div {
+    padding: 0 5%;
+}
+
+#features div i {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+#features div i:hover {
+    color: #ff4c68;
+}
+
+.feature-heading {
+    font-size: 1.5rem;
+}
+
+/* testimonials section */
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+}
+
+#testimonials img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 1rem;
+}
+
+.carousel-indicators {
+    bottom: 2.5rem;
+}
+
+.carousel-indicators li {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+}
+
+/* press section */
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+#press img {
+    width: 15%;
+    margin: 0 1rem;
+}
+
+/* pricing section */
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* cta section */
+#cta {
+    background-color: #ff4c68;
+}
+
+/* footer */
+footer {
+    padding: 5% 15% 1%;
+}
+
+footer i {
+    margin: 0 0.8% 1%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* media query for mobile devices */
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .dogo-cp-pic {
+        position: static;
+        transform: rotate(0);
+        width: 80%;
+    }
+}
+
+@media (max-width: 991px) {
+    .dogo-cp-pic{
+        width: 40%;
+    }
+}
